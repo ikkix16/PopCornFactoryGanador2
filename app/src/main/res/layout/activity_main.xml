@@ -5,15 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/black"
     tools:context=".MainActivity">
 
-    <GridView
-        android:id="@+id/gridview"
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/popcorn"/>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:numColumns="3"/>
+        android:background="@color/black">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingHorizontal="5dp"
+        android:text="Lorem Ipsum Ganador"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+        <Button
+            android:layout_width="237dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/round_button"
+            android:text="GET ME IN"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/botonP"/>
 
 
 
-
+</LinearLayout>
 </LinearLayout>

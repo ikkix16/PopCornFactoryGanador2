@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="marginTopRadioGroup">40dp</dimen>
+    <dimen name="radiogroup">20dp</dimen>
+|   <dimen name="radioButton">60dp</dimen>
+    <dimen name="rbtext">20sp</dimen>
+    <dimen name="hmrb">3dp</dimen>
+    <dimen name="symbols">30dp</dimen>
+
+
+</resources>
